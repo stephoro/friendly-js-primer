@@ -162,13 +162,15 @@ Allows 3D Drawing and Shading capabilities in the browser. Extremely efficient a
 
 ## *Intermediate* File Manipulation
 
-JavaScript can open files users provide to a web page and interact with them, including creating new files. By default, JavaScript has built in functions supporting the parsing of JSON (JavaScript Object Notation).
+JavaScript can open files users provide to a web page and interact with them, including creating new files. By default, JavaScript has built in functions supporting the parsing of JSON (JavaScript Object Notation). JavaScript can also create permanent or temporary filesystems, which it has more control over. This is available via the FileSystem API.
 
 
 ### Things to Google
 
     JavaScript read json file example
     JavaScript read file line by line
+    JavaScript FileSystem API
+    JavaScript read file from input element
 
 
 ## *Advanced* Progressive Web Applications
@@ -189,6 +191,18 @@ JavaScript provides powerful tools to deal with asyncronous tasks through promis
 ### Things to Google
 
     JavaScript Promise tutorial
+
+
+## *Advanced* Web Assembly
+
+Web Assembly (WASM) provides the ability to have compiled languages like C/C++ run within the web and interact with JavaScript. Some people write games using libaries like SDL2 and Web Assembly allows these applications to be shipped to the web.
+
+
+### Things to Google
+
+    WASM emscripten tutorial
+    WASM SDL2 tutorial
+
 
 # Tools
 
